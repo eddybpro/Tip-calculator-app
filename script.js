@@ -52,6 +52,7 @@ resetBtn.addEventListener('click', ()=>{
     custom.value = '';
     amountValTxt.textContent = '$0.00';
     totalVal.textContent = '$0.00';
+    numPeopleInput.style.borderColor = 'hsl(185, 41%, 84%)';
     
     if(errorFlag){
         errorTxt.classList.toggle('none');
